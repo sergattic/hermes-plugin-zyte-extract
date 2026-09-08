@@ -1,0 +1,15 @@
+name: zyte-extract
+version: 1.0.0
+description: >
+  Zyte Extract API — paid URL-to-clean-text extraction backstop. Added
+  2026-09-02 as the owner's chosen paid alternative (evaluated alongside
+  Diffbot): $0.13 per 1,000 HTTP requests, no monthly minimum, pay-as-you-go,
+  $5 free trial credit. Requires ZYTE_API_KEY (sourced via
+  secrets.onepassword.env, op://<your-vault>/<item>/<field>). Placed last in
+  the extract ladder, after every free rung and before exa (cheaper than
+  exa's $7/1k -- ordered ahead of it as the less expensive paid option).
+author: velis / Claude Code
+license: MIT
+kind: backend
+provides_web_providers:
+  - zyte

@@ -1,1 +1,0 @@
-# hermes-plugin-zyte-extract
